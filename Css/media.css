@@ -1,0 +1,21 @@
+@media only screen and (min-width:200px) and (max-width:575px) {
+
+   .navLogo img {
+    width: 180px;
+   }
+   .content h1{
+    font-size: 35px;
+   }
+   .content p{
+    font-size: 20px;
+   }
+   .btnImg a img{
+    width: 120px;
+   }
+   .contentImg h2{
+    font-size: 36px;
+   }
+   .footer-text p{
+    font-size: 16px;
+   }
+}

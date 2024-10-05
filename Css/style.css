@@ -1,0 +1,86 @@
+*{
+    font-family: "Baloo Bhaijaan 2", sans-serif;
+}
+
+.navbar{
+    border-radius: 20px;
+    box-shadow: 0px 0px 5px rgb(62, 61, 61) ;
+}
+.navbtn button{
+    width: 132px;
+    height: 48px;
+    background-color: #005f29;
+    border: 1px solid #005f29;
+    color: #fff;
+    border-radius: 14px;
+    font-family: "Baloo Bhaijaan 2", sans-serif;
+    font-weight: 400;
+}
+.nav-link{
+    font-weight: 600;
+}
+.nav-link:hover{
+    color: #005f29;
+}
+
+.content h1{
+    text-align: center;
+    font-family: "Baloo Bhaijaan 2", sans-serif;
+    font-weight: 700;
+    font-size: 60px;
+}
+.content p {
+    font-family: "Baloo Bhaijaan 2", sans-serif;
+    font-weight: 400;
+    font-size: 24px;
+}
+.content h1 span{
+    color: #005f29;
+}
+.content button {
+    width: 132px;
+    height: 48px;
+    background-color: #005f29;
+    border: 1px solid #005f29;
+    color: #fff;
+    border-radius: 14px;
+    font-family: "Baloo Bhaijaan 2", sans-serif;
+    font-weight: 400;
+}
+.contentImg{
+    text-transform: capitalize;
+    font-size: 40px;
+    font-family: "Baloo Bhaijaan 2", sans-serif;
+    text-transform: capitalize;
+    line-height: 40px;
+    font-weight: 600;
+}
+.footerlinks img {
+    line-height: 20px ;
+
+}
+.footerlinks a{
+    text-decoration: none;
+    font-weight: 500;
+    color: gray;
+}
+.footerlinks a:hover{
+    color: black;
+}
+.iMgsContent p{
+    color: #005f29;
+    font-size: 19px; 
+     font-weight: 600;
+}
+
+.footer-icons a i{
+    width: 35px;
+    height:  35px;
+}
+.linksFooter{
+    font-weight:  600;
+    color: gray;
+}
+.linksFooter:hover{
+    color: black;
+}

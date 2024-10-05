@@ -1,0 +1,210 @@
+@import url("https://fonts.googleapis.com/css2?family=Baloo+Bhaijaan+2:wght@400..800&display=swap");
+body{
+    padding: 0px;
+    margin: 0px;
+}
+.heading {
+  text-align: center;
+  font-family: "Baloo Bhaijaan 2", sans-serif;
+  color: #000000;
+  font-weight: 700;
+  font-size: 60px;
+}
+.topSec {
+  padding-top: 50px;
+  padding-bottom: 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.description {
+  text-align: center;
+  font-family: "Baloo Bhaijaan 2", sans-serif;
+  font-weight: 400;
+  color: #1c2d34;
+  font-size: 24px;
+  width: 70%;
+  /* padding-left: 50px;
+  padding-right: 50px; */
+  /* margin: auto; */
+}
+.learnMoreBtn {
+  width: 132px;
+  height: 48px;
+  background-color: #005f29;
+  border: 1px solid #005f29;
+  color: #fff;
+  border-radius: 14px;
+  font-family: "Baloo Bhaijaan 2", sans-serif;
+  font-weight: 400;
+}
+.btnsRow {
+  margin-top: 30px;
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+.btnsRow a {
+  text-transform: none;
+  text-decoration: none;
+}
+.backgroundImage {
+  width: 100%;
+}
+.cardHeading {
+  text-transform: capitalize;
+  color: #1c2d34;
+  font-size: 40px;
+  font-family: "Baloo Bhaijaan 2", sans-serif;
+  line-height: 40px;
+  font-weight: 600;
+}
+.cardImage {
+  width: 100%;
+}
+
+@media only screen and (max-width: 700px) {
+  .heading {
+    font-size: 40px;
+  }
+  .description {
+    width: 100%;
+    font-size: 20px;
+  }
+}
+body {
+  font-family: "Baloo Bhaijaan 2", sans-serif !important;
+}
+
+.navbar {
+  box-shadow: 0px 0px 5px #00000029;
+  background-color: white;
+  margin-top: 35px !important;
+  border-radius: 18px;
+  padding: 5px !important;
+  position: relative;
+  padding-left: 0px !important;
+}
+
+
+
+.getstartbtn {
+  background-color: #005f29 !important;
+  border-radius: 15px !important;
+  color: white !important;
+  height: 48px;
+  width: 133px;
+  outline: none;
+  border: none;
+  /* position: absolute;right: 20px; */
+}
+
+.navbar-toggler-icon {
+  color: #005f29 !important;
+}
+
+.navlink_header {
+  color: #1f1f1f !important;
+  font-weight: 500;
+  margin-left: 5px;
+  margin-right: 5px;
+}
+.navlink_header{
+    color: #1F1F1F !important;
+    font-weight: 500;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+footer {
+    background-color: #f8f9fa;
+    /* padding: 40px 0; */
+    border: 1.2px solid  rgb(181, 179, 179);
+    border-bottom-width: 0px;
+    border-right-width: 0px;
+    border-left-width: 0px;
+
+  }
+  
+  footer h4 {
+    font-weight: bold;
+    font-size: 24px;
+  }
+  
+  footer p {
+    color: #6c757d;
+  }
+  
+  footer .list-inline-item a {
+    color: #6c757d;
+    text-decoration: none;
+  }
+  
+  footer .list-inline-item a:hover {
+    color: #000;
+  }
+  
+  footer .list-inline i {
+    font-size: 24px;
+    color: #6c757d;
+  }
+  
+  footer .list-inline i:hover {
+    color: #000;
+  }
+  
+
+
+  #supporting_text{
+    color: #475467;
+    font-size: 16px;
+    margin-top: 20px;
+  }
+
+  .list-inline-item{
+    color: #1F1F1F;
+    font-weight: 500;
+  }
+
+  #_get_app{
+color: #005F29;
+font-weight: 500;
+font-size: 19px;
+  }
+
+  ._reserved_row{
+    border: 1.2px solid  rgb(181, 179, 179);
+    border-bottom-width: 0px;
+    border-right-width: 0px;
+    border-left-width: 0px;
+    padding-top: 20px;
+    /* #6c757d */
+  }
+  .downloadsec{
+    width: 100%;
+  }
+
+
+ 
+  @media only screen and (max-width: 990px) {
+    .getstartbtn {
+     position:static;
+    }
+  }
+
+@media only screen and (max-width: 380px) {
+  ._logo{
+width: 170px;
+  }
+  .downloadbtn{
+   width:100px;
+  }
+}
+
+.navbar-nav{
+  display: flex !important;
+  flex: 1;
+  justify-content: center;
+  /* align-items: center; */
+}
